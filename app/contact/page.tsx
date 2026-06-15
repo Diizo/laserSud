@@ -89,12 +89,12 @@ export default function ContactPage() {
                 {
                   icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M5 4h4l2 5-3 2a12 12 0 0 0 5 5l2-3 5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>`,
                   title: "Téléphone",
-                  content: `<a href="tel:+33000000000" class="text-sage-mid">04 00 00 00 00</a>`,
+                  content: `<a href="tel:+33000000000" class="text-sage-mid">06 95 87 96 52</a>`,
                 },
                 {
                   icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>`,
                   title: "E-mail",
-                  content: `<a href="mailto:contact@lasersud.fr" class="text-sage-mid">contact@lasersud.fr</a>`,
+                  content: `<a href="mailto:lasersud13@gmail.com" class="text-sage-mid">lasersud13@gmail.com</a>`,
                 },
                 {
                   icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>`,

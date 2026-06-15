@@ -14,7 +14,7 @@ export default function PrestationsPage() {
           <span className="eyebrow">Nos prestations</span>
           <h1 className="display h-lg">Une zone, un protocole sur mesure</h1>
           <p className="text-[1.12rem] font-light text-ink-soft max-w-[56ch] mx-auto mt-[18px]">
-            Du plus petit détail du visage aux grandes zones du corps, chaque prestation est réalisée au laser dernière génération. Tarifs indiqués à la séance — forfaits dégressifs disponibles.
+            Du plus petit détail du visage aux grandes zones du corps, chaque prestation est réalisée au laser dernière génération. <br />Tarifs indiqués à la séance.
           </p>
         </div>
       </section>
@@ -69,7 +69,7 @@ export default function PrestationsPage() {
               <div className="grid gap-3.5 mt-6">
                 {[
                   { stat: "6 à 8 séances", sub: "en moyenne pour un résultat optimal" },
-                  { stat: "4 à 8 semaines", sub: "d'intervalle entre chaque passage" },
+                  { stat: "5 à 13 semaines", sub: "d'intervalle entre chaque séances" },
                 ].map((c) => (
                   <div key={c.stat} className="bg-white border border-line rounded-[4px] px-[22px] py-[18px]">
                     <strong className="font-serif text-[1.2rem] text-ink">{c.stat}</strong>
@@ -91,8 +91,8 @@ export default function PrestationsPage() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-7">
             {[
-              { num: "1", title: "Rasez la zone", text: "24 à 48 h avant la séance, à blanc — ni cire ni épilateur les semaines précédentes." },
-              { num: "2", title: "Évitez le soleil", text: "Pas d'exposition ni d'autobronzant 2 semaines avant et après." },
+              { num: "1", title: "Rasez la zone", text: "24h avant la séance, ni cire, épilateur crème, épilatoire, quand on entame un protocole d’épilation au laser" },
+              { num: "2", title: "Évitez le soleil", text: "pas d’exposition au soleil, quatre semaines avant la séance et trois jours après. Pas d’autobronzant une semaine avant la séance" },
               { num: "3", title: "Hydratez la peau", text: "Après la séance, hydratez bien et appliquez une protection solaire SPF50." },
             ].map((step) => (
               <div key={step.num}

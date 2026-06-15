@@ -11,7 +11,7 @@ export function Footer() {
           <div>
             <div className="mb-[18px]"><Logo light /></div>
             <p className="text-[rgba(251,248,240,0.6)] text-[14px] leading-[1.7] max-w-[34ch]">
-              Institut d&apos;épilation laser dernière génération. Une peau douce, durablement, dans un cadre apaisant baigné de lumière du Sud.
+              Une épilation laser dernière génération, précise et confortable, pensée pour révéler une peau nette, douce et durablement lisse.
             </p>
           </div>
           {/* Institut */}

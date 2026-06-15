@@ -11,10 +11,10 @@ export default function BlogPage() {
       {/* PAGE HERO */}
       <section className="py-[76px] pb-16 text-center bg-cream-2">
         <div className="max-w-[880px] mx-auto px-8">
-          <span className="eyebrow">Le journal</span>
-          <h1 className="display h-lg">Conseils & beauté de la peau</h1>
+          <span className="eyebrow">Nos conseils</span>
+          <h1 className="display h-lg">L’art d’une peau nette</h1>
           <p className="text-[1.12rem] font-light text-ink-soft max-w-[56ch] mx-auto mt-[18px]">
-            Tout ce qu&apos;il faut savoir sur l&apos;épilation laser, le soin de la peau et nos petits secrets pour de beaux résultats.
+            Nos conseils experts pour mieux comprendre l’épilation laser, préparer vos séances et prendre soin de votre peau avant, pendant et après votre cure.
           </p>
         </div>
       </section>

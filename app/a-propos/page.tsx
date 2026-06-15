@@ -25,14 +25,14 @@ const VALUES = [
   {
     icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></svg>`,
     title: "Transparence",
-    text: "Des tarifs clairs, un nombre de séances annoncé, aucune vente forcée.",
+    text: "Chaque étape vous est expliquée avec clarté : tarifs, protocole, déroulement des séances et résultats attendus.",
   },
 ];
 
 const TEAM = [
-  { name: "Camille", role: "Fondatrice & praticienne" },
-  { name: "Léa",     role: "Praticienne laser" },
-  { name: "Inès",    role: "Conseillère & accueil" },
+  { name: "Mélanie", role: "Fondatrice & praticienne" },
+  { name: "Laura",     role: "Praticienne laser" },
+  { name: "Allexia",    role: "Conseillère & accueil" },
 ];
 
 export default function AProposPage() {
@@ -42,9 +42,9 @@ export default function AProposPage() {
       <section className="py-[76px] pb-16 text-center bg-cream-2">
         <div className="max-w-[880px] mx-auto px-8">
           <span className="eyebrow">L&apos;institut</span>
-          <h1 className="display h-lg">Laser Sud, la beauté<br />baignée de lumière</h1>
+          <h1 className="display h-lg">Laser Sud, l’expertise laser à Fos-sur-Mer</h1>
           <p className="text-[1.12rem] font-light text-ink-soft max-w-[56ch] mx-auto mt-[18px]">
-            Né à Fos-sur-Mer, notre institut conjugue l&apos;exigence du soin médical et la douceur d&apos;un lieu pensé pour vous détendre.
+            Un institut spécialisé en épilation laser, équipé d’un laser médical dernière génération et encadré par des médecins, pour une prise en charge sûre, précise et adaptée à chaque peau.
           </p>
         </div>
       </section>
@@ -58,13 +58,11 @@ export default function AProposPage() {
             </div>
             <div>
               <span className="eyebrow">Notre histoire</span>
-              <h2 className="display h-lg">Une autre idée de l&apos;épilation</h2>
+              <h2 className="display h-lg">L’épilation laser, avec exigence et douceur</h2>
               <p className="text-[1.12rem] font-light text-ink-soft mt-[18px]">
-                Nous avons créé Laser Sud avec une conviction simple : se faire épiler ne devrait jamais être une corvée, mais un moment pour soi. Ici, pas de cabine froide ni de précipitation — un cadre clair, des couleurs de garrigue, et une équipe qui prend le temps.
-              </p>
+Laser Sud est né d’une volonté simple : proposer une épilation laser plus professionnelle, plus rassurante et plus personnalisée. Ici, chaque cliente bénéficie d’un accompagnement attentif, d’explications claires et d’un protocole adapté à sa peau.              </p>
               <p className="text-[1.12rem] font-light text-ink-soft mt-4">
-                Nous avons choisi une technologie laser parmi les plus performantes du marché, adaptée à tous les phototypes, pour des résultats durables en toute sécurité.
-              </p>
+Grâce à un laser médical dernière génération et à des protocoles encadrés par des médecins, nous mettons la sécurité, la précision et le confort au cœur de chaque séance.              </p>
             </div>
           </div>
         </div>
@@ -92,7 +90,7 @@ export default function AProposPage() {
       </section>
 
       {/* STATS */}
-      <section className="py-16 bg-cream-2">
+      {/* <section className="py-16 bg-cream-2">
         <div className="max-w-site mx-auto px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-7 text-center">
             {STATS.map((s) => (
@@ -103,14 +101,14 @@ export default function AProposPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* TEAM */}
       <section className="py-24 bg-cream">
         <div className="max-w-site mx-auto px-8">
           <div className="text-center mb-[46px]">
             <span className="eyebrow">L&apos;équipe</span>
-            <h2 className="display h-lg">Des mains expertes</h2>
+            <h2 className="display h-lg">Les visages de Laser Sud</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-7">
             {TEAM.map((member) => (
@@ -119,7 +117,7 @@ export default function AProposPage() {
                   <ImagePlaceholder label={`Portrait ${member.name}`} />
                 </div>
                 <h3 className="font-serif text-[1.5rem]">{member.name}</h3>
-                <p className="text-ink-soft text-[13px] tracking-[0.1em] uppercase">{member.role}</p>
+                {/* <p className="text-ink-soft text-[13px] tracking-[0.1em] uppercase">{member.role}</p> */}
               </div>
             ))}
           </div>

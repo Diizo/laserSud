@@ -28,7 +28,7 @@ export function Header() {
     <>
       {/* Announce bar */}
       <div className="bg-sage-mid text-cream text-center text-[11.5px] tracking-[0.24em] uppercase py-2.5 px-4 font-light">
-        Première séance découverte à -30% · Institut à Fos-sur-Mer ·{" "}
+        DIAGNOSTIC PERSONNALISÉ + TEST LASER OFFERT · INSTITUT À FOS-SUR-MER ·{" "}
         <Link href="/rendez-vous" className="text-gold underline underline-offset-[3px]">Réserver</Link>
       </div>
 

@@ -27,19 +27,19 @@ const WHY = [
   {
     icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-[26px] h-[26px]"><path d="M12 21s-7-4.5-9.5-9A5.3 5.3 0 0 1 12 6a5.3 5.3 0 0 1 9.5 6c-2.5 4.5-9.5 9-9.5 9z"/></svg>,
     title: "Équipe bienveillante",
-    text: "Une équipe féminine à l'écoute, dans un cadre apaisant aux couleurs de la garrigue.",
+    text: "Une équipe à l’écoute, douce et professionnelle, pour vous accompagner en toute confiance.",
   },
   {
     icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-[26px] h-[26px]"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></svg>,
     title: "Transparence totale",
-    text: "Des tarifs clairs, un nombre de séances annoncé, aucune vente forcée.",
+    text: "Chaque étape vous est expliquée avec clarté : tarifs, protocole, déroulement des séances et résultats attendus.",
   },
 ];
 
 const TESTIMONIALS = [
-  { quote: "Résultat bluffant dès la 4ᵉ séance. L'équipe est adorable, je recommande les yeux fermés !", author: "Camille M." },
-  { quote: "Enfin un institut où on prend vraiment le temps. Je me suis sentie bien accompagnée du début à la fin.", author: "Leïla T." },
-  { quote: "Le matériel est top, les séances sont rapides et les effets sont là. Que du bonheur.", author: "Sophie D." },
+  { quote: "Mélanie est très douce, professionnelle et rassurante. Elle met tout de suite en confiance, explique bien chaque étape et prend vraiment soin de ses clientes. Les séances se passent dans une ambiance agréable. Je recommande ! ", author: "Aurelie S." },
+  { quote: "Excellente expérience ! Accueil très professionnel, explications claires et séance rapide avec peu d’inconfort. Résultats déjà visibles, je recommande vivement Merci à Laura", author: "Jade F." },
+  { quote: "J’ai fais ma première séance aisselles avec Allexia, après 3 semaines, je n’ai qu’une repousse de 3 jours. Effets dès la première séance. Je recommande vivement, les filles sont super sympa et explique vraiment très bien.", author: "Marie P." },
 ];
 
 export default function HomePage() {
@@ -54,10 +54,10 @@ export default function HomePage() {
         <div className="relative z-10 self-center text-center text-cream px-8 py-[90px] max-w-[860px] mx-auto">
           <span className="eyebrow" style={{ color: "#f2d785" }}>Institut d&apos;épilation laser · Fos-sur-Mer</span>
           <h1 className="display h-xl mt-0 text-cream" style={{ textShadow: "0 2px 30px rgba(40,50,25,0.3)" }}>
-            La douceur,<br />durablement.
+            VOTRE PEAU,<br />NOTRE EXPERTISE.
           </h1>
           <p className="text-[1.12rem] font-light text-[rgba(255,255,255,0.92)] max-w-[56ch] mx-auto mt-[22px] mb-[34px]">
-            Une épilation laser dernière génération, précise et confortable, dans un écrin de lumière. Dites adieu au rasoir — révélez une peau nette, naturellement.
+            Une épilation laser dernière génération, précise et confortable, pensée pour révéler une peau nette, douce et durablement lisse.
           </p>
           <div className="flex gap-3.5 justify-center flex-wrap">
             <Link href="/rendez-vous"
@@ -79,8 +79,7 @@ export default function HomePage() {
           <span className="eyebrow">Bienvenue chez Laser Sud</span>
           <h2 className="display h-lg">Le geste beauté qui change tout</h2>
           <p className="text-[1.12rem] font-light text-ink-soft max-w-[56ch] mx-auto mt-[22px]">
-            Fini les rendez-vous à répétition et les irritations. Notre technologie laser cible le poil à la racine, séance après séance, pour un résultat durable sur toutes les zones du corps — dans le confort et le respect de votre peau.
-          </p>
+Fini les rendez-vous à répétition et les irritations. Notre technologie laser cible le poil à la racine, séance après séance, pour un résultat définitif sur toutes les zones du corps dans le confort et le respect de votre peau.          </p>
         </div>
       </section>
 
