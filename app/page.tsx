@@ -46,10 +46,10 @@ export default function HomePage() {
   return (
     <>
       {/* ── HERO ── */}
-      <header className="relative min-h-[600px] grid">
-        <div className="absolute inset-0">
-          <ImagePlaceholder label="Photo d'ambiance — cabine / institut" />
-        </div>
+      <header
+        className="relative min-h-[600px] grid bg-cover bg-center bg-no-repeat bg-scroll md:bg-fixed"
+        style={{ backgroundImage: "url('/hero.jpg')" }}
+      >
         <div className="absolute inset-0 bg-gradient-to-b from-[rgba(104,121,81,0.30)] to-[rgba(93,110,72,0.52)]" />
         <div className="relative z-10 self-center text-center text-cream px-8 py-[90px] max-w-[860px] mx-auto">
           <span className="eyebrow" style={{ color: "#f2d785" }}>Institut d&apos;épilation laser · Fos-sur-Mer</span>
