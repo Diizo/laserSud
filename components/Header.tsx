@@ -33,7 +33,7 @@ export function Header() {
       </div>
 
       {/* Sticky nav */}
-      <nav className={`sticky top-0 z-60 bg-cream border-b border-line transition-shadow duration-300 ${scrolled ? "shadow-sm" : ""}`}>
+      <nav className={`sticky top-0 z-[60] bg-cream border-b border-line transition-shadow duration-300 ${scrolled ? "shadow-sm" : ""}`}>
         <div className="max-w-site mx-auto px-8 h-[78px] flex items-center gap-7">
           <Logo />
 
@@ -77,7 +77,7 @@ export function Header() {
 
       {/* Mobile drawer */}
       <div
-        className={`fixed inset-0 bg-[rgba(40,50,25,0.4)] z-80 transition-opacity duration-300 ${drawerOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}
+        className={`fixed inset-0 bg-[rgba(40,50,25,0.4)] z-[80] transition-opacity duration-300 ${drawerOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}
         onClick={() => setDrawerOpen(false)}
       />
       <aside
