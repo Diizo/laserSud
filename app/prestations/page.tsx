@@ -11,20 +11,11 @@ export default function PrestationsPage() {
       {/* PAGE HERO */}
       <section className="py-[76px] pb-16 text-center bg-cream-2">
         <div className="max-w-[880px] mx-auto px-8">
-          <div className="text-[12px] tracking-[0.16em] uppercase text-sage-mid mb-4">Accueil · Prestations</div>
           <span className="eyebrow">Nos prestations</span>
           <h1 className="display h-lg">Une zone, un protocole sur mesure</h1>
           <p className="text-[1.12rem] font-light text-ink-soft max-w-[56ch] mx-auto mt-[18px]">
             Du plus petit détail du visage aux grandes zones du corps, chaque prestation est réalisée au laser dernière génération. Tarifs indiqués à la séance — forfaits dégressifs disponibles.
           </p>
-          <div className="flex gap-3 justify-center flex-wrap mt-[26px]">
-            {SERVICES.map((s) => (
-              <Link key={s.id} href={`#${s.id}`}
-                className="inline-flex items-center gap-1.5 px-[15px] py-1.5 rounded-full bg-cream-2 text-sage-mid text-[12px] tracking-[0.08em] font-medium border border-line hover:bg-cream transition-colors">
-                {s.label}
-              </Link>
-            ))}
-          </div>
         </div>
       </section>
 
@@ -37,11 +28,8 @@ export default function PrestationsPage() {
                 className="bg-white border border-line rounded-[4px] overflow-hidden"
                 style={{ scrollMarginTop: "120px" }}>
                 <div className="flex items-center gap-[18px] px-[30px] py-[26px] border-b border-line bg-cream-2">
-                  <div className="w-12 h-12 rounded-full grid place-items-center bg-white text-sage-mid flex-none"
-                    dangerouslySetInnerHTML={{ __html: svc.icon }} />
                   <div>
-                    <span className="eyebrow mb-1">{svc.label}</span>
-                    <h3 className="font-serif text-[1.7rem]">{svc.subtitle}</h3>
+                    <h3 className="font-serif text-[1.7rem]">{svc.label}</h3>
                   </div>
                 </div>
                 <ul className="list-none m-0 px-[30px] py-2">
@@ -103,9 +91,9 @@ export default function PrestationsPage() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-7">
             {[
-              { num: "①", title: "Rasez la zone", text: "24 à 48 h avant la séance, à blanc — ni cire ni épilateur les semaines précédentes." },
-              { num: "②", title: "Évitez le soleil", text: "Pas d'exposition ni d'autobronzant 2 semaines avant et après." },
-              { num: "③", title: "Hydratez la peau", text: "Après la séance, hydratez bien et appliquez une protection solaire SPF50." },
+              { num: "1", title: "Rasez la zone", text: "24 à 48 h avant la séance, à blanc — ni cire ni épilateur les semaines précédentes." },
+              { num: "2", title: "Évitez le soleil", text: "Pas d'exposition ni d'autobronzant 2 semaines avant et après." },
+              { num: "3", title: "Hydratez la peau", text: "Après la séance, hydratez bien et appliquez une protection solaire SPF50." },
             ].map((step) => (
               <div key={step.num}
                 className="bg-white border border-line rounded-[4px] p-[34px_30px] transition-all duration-400 hover:-translate-y-[5px] hover:shadow">

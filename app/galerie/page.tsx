@@ -10,7 +10,6 @@ export default function GaleriePage() {
       {/* PAGE HERO */}
       <section className="py-[76px] pb-16 text-center bg-cream-2">
         <div className="max-w-[880px] mx-auto px-8">
-          <div className="text-[12px] tracking-[0.16em] uppercase text-sage-mid mb-4">Accueil · Galerie</div>
           <span className="eyebrow">Galerie & résultats</span>
           <h1 className="display h-lg">L&apos;institut & vos résultats</h1>
           <p className="text-[1.12rem] font-light text-ink-soft max-w-[56ch] mx-auto mt-[18px]">

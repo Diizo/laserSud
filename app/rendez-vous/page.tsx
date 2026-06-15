@@ -89,7 +89,6 @@ export default function RendezVousPage() {
       {/* PAGE HERO */}
       <section className="py-14 pb-10 text-center bg-cream-2">
         <div className="max-w-[880px] mx-auto px-8">
-          <div className="text-[12px] tracking-[0.16em] uppercase text-sage-mid mb-4">Accueil · Rendez-vous</div>
           <span className="eyebrow">Réservation en ligne</span>
           <h1 className="display h-lg">Choisissez votre créneau</h1>
           <p className="text-[1.12rem] font-light text-ink-soft max-w-[56ch] mx-auto mt-4">

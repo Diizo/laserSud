@@ -14,7 +14,6 @@ export const SERVICES = [
     id: "visage",
     label: "Visage",
     subtitle: "Précision & délicatesse",
-    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4"><circle cx="12" cy="12" r="9"/><path d="M9 10h.01M15 10h.01M9 15c1 1 5 1 6 0"/></svg>`,
     items: [
       { name: "Inter-sourcils", price: "20 €" },
       { name: "Lèvre supérieure", price: "25 €" },
@@ -26,7 +25,6 @@ export const SERVICES = [
     id: "jambes",
     label: "Jambes",
     subtitle: "Lisses, du genou au pied",
-    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4"><path d="M9 3h5l-1 8-1 10H9l1-10z"/><path d="M14 3l1 8-2 10"/></svg>`,
     items: [
       { name: "Demi-jambes", price: "70 €" },
       { name: "Cuisses", price: "80 €" },
@@ -38,7 +36,6 @@ export const SERVICES = [
     id: "bras",
     label: "Bras",
     subtitle: "De l'épaule au bout des doigts",
-    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4"><path d="M6 3v7a4 4 0 0 0 4 4h2l4 4 2-2-4-4V6"/><circle cx="18" cy="5" r="1.5"/></svg>`,
     items: [
       { name: "Aisselles", price: "30 €" },
       { name: "Mains", price: "20 €" },
@@ -51,7 +48,6 @@ export const SERVICES = [
     id: "corps",
     label: "Corps",
     subtitle: "Confort & intimité respectés",
-    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4"><circle cx="12" cy="5" r="2.4"/><path d="M12 8v8M8 11h8M9 21l3-5 3 5"/></svg>`,
     items: [
       { name: "Aréoles", price: "25 €" },
       { name: "Ligne du ventre", price: "25 €" },

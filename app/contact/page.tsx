@@ -15,7 +15,6 @@ export default function ContactPage() {
       {/* PAGE HERO */}
       <section className="py-[76px] pb-16 text-center bg-cream-2">
         <div className="max-w-[880px] mx-auto px-8">
-          <div className="text-[12px] tracking-[0.16em] uppercase text-sage-mid mb-4">Accueil · Contact</div>
           <span className="eyebrow">Contact</span>
           <h1 className="display h-lg">On vous répond avec plaisir</h1>
           <p className="text-[1.12rem] font-light text-ink-soft max-w-[56ch] mx-auto mt-[18px]">
